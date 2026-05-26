@@ -51,6 +51,18 @@
 | 21 | SELinux/AppArmor | 强制访问控制、容器安全策略 | ⏳ 待写 |
 | 22 | capability 与 secure computing | capsh、seccomp、容器去 root | ⏳ 待写 |
 
+## 参考资料
+
+学习时从以下来源出发，各 learn-\* 项目共用同一套资料，不重复引入其他解释。
+
+| 来源 | 用途 |
+|------|------|
+| [Go by Example 中文](https://gobyexample-cn.github.io/) | Shell 脚本/命令行工具的 Go 实现参考（learn-go 同款）|
+| [OSTEP 中文](https://pages.cs.wisc.edu/~remzi/OSTEP/Chinese/) | **每章理论基础的第一手来源**：进程(Ch.4-6)、内存(Ch.13-24)、文件系统(Ch.36-40)、并发(Ch.26-33)|
+| [OpenSandbox](https://github.com/alibaba/OpenSandbox) | **每章工程实践案例的来源**：真实 cgroup/namespace/runc/Kata bug |
+| [containerd](https://github.com/containerd/containerd) | **容器原理篇的核心代码参考**：CRI 实现、sandbox/container 生命周期、shim 协议 |
+| [kata-containers](https://github.com/kata-containers/kata-containers) | **Kata 章节的核心代码参考**：kata-agent、QEMU QMP、virtio 设备、shimv2 |
+
 ## 关联
 
 本项目是 [后端开发技能路线图](https://github.com/qingyuppp/learn-api) 的第 4 项技能。
