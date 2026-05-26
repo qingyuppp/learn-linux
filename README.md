@@ -22,7 +22,7 @@
 | 7 | [/proc 与 cgroup 实战](07-cgroup和proc实战-容器看到宿主机内存的bug.md) | /proc、cgroup v1/v2、namespace 隔离边界 | ✅ 完成 |
 | 8 | [namespace 基础](08-namespace基础-pause容器持有netns与sysctl应用.md) | unshare、nsenter、lsns、PID/Network/Mount/UTS/IPC/User namespace | ✅ 完成 |
 | 9 | kubectl 排障套路 | exec、describe、logs、events、port-forward、cp | ⏳ 待写 |
-| 10 | runc vs Kata 隔离差异 | runc 共享内核、Kata 独立 VM、可观测性差异 | ⏳ 待写 |
+| 10 | [runc vs Kata 隔离差异](10-runc-vs-kata-容器运行时隔离差异.md) | runc 共享内核、Kata 独立 VM、oom_score_adj、可观测性差异、cgroup 双层 | ✅ 完成 |
 
 ### 进阶篇（深入内核与系统）
 
