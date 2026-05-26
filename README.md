@@ -19,8 +19,8 @@
 
 | # | 主题 | 涉及概念/命令 | 状态 |
 |---|------|--------------|------|
-| 7 | [/proc 与 cgroup 实战](容器看到宿主机内存的bug-cgroup和proc实战.md) | /proc、cgroup v1/v2、namespace 隔离边界 | ✅ 完成 |
-| 8 | [namespace 基础](namespace基础-pause容器持有netns与sysctl应用.md) | unshare、nsenter、lsns、PID/Network/Mount/UTS/IPC/User namespace | ✅ 完成 |
+| 7 | [/proc 与 cgroup 实战](07-cgroup和proc实战-容器看到宿主机内存的bug.md) | /proc、cgroup v1/v2、namespace 隔离边界 | ✅ 完成 |
+| 8 | [namespace 基础](08-namespace基础-pause容器持有netns与sysctl应用.md) | unshare、nsenter、lsns、PID/Network/Mount/UTS/IPC/User namespace | ✅ 完成 |
 | 9 | kubectl 排障套路 | exec、describe、logs、events、port-forward、cp | ⏳ 待写 |
 | 10 | runc vs Kata 隔离差异 | runc 共享内核、Kata 独立 VM、可观测性差异 | ⏳ 待写 |
 
